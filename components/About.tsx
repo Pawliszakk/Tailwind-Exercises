@@ -9,12 +9,12 @@ const About = () => {
 				tempor incididunt ut labore et dolore magna aliqua minim veniam, quis
 				nostrud.
 			</p>
-			<button className="bg-gradient-to-b from-orange-300 to-orange-600 px-10 py-4 rounded-[50px] text-4xl my-8">
+			<button className="bg-gradient-to-b from-orange-300 to-orange-600 px-10 py-4 rounded-[50px] text-4xl my-8 hover:scale-95 transition-transform">
 				Contact Me
 			</button>
 
 			<div className="lg:flex lg:gap-10">
-				<div className="relative rounded-3xl overflow-hidden my-12">
+				<div className="relative rounded-3xl overflow-hidden my-12 hover:scale-95 transition-transform">
 					<img src="./img/image1.png" alt="" />
 					<span className="absolute bottom-5 left-5 font-bold text-3xl sm:bottom-10 sm:left-10 sm:text-5xl">
 						Branding Project
@@ -36,7 +36,7 @@ const About = () => {
 						</svg>
 					</span>
 				</div>
-				<div className="relative rounded-3xl overflow-hidden  my-12">
+				<div className="relative rounded-3xl overflow-hidden  my-12 hover:scale-95 transition-transform">
 					<img src="./img/image2.png" alt="" />
 					<span className="absolute bottom-5 left-5 font-bold text-3xl sm:bottom-10 sm:left-10 sm:text-5xl">
 						Branding Project

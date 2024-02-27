@@ -4,16 +4,16 @@ const Footer = () => {
 	const year = new Date().getFullYear();
 	return (
 		<footer className="bg-neutral-900 text-white rounded-t-3xl text-center pt-32  ">
-			<div className="pb-16 border-b-2 border-gray-800 max-w-[90%] mx-auto">
+			<div className="pb-16 border-b-2 border-gray-800 max-w-[90%] mx-auto lg:max-w-[1200px]">
 				<span className="text-center text-7xl lg:text-[50px]">
 					Have a Cool Project?
 				</span>
-				<button className="block my-12 mx-auto bg-gradient-to-b from-orange-300 to-orange-600 px-10 py-4 rounded-[50px] text-4xl ">
+				<button className="block my-12 mx-auto bg-gradient-to-b from-orange-300 to-orange-600 px-10 py-4 rounded-[50px] text-4xl hover:scale-95 transition-transform">
 					Contact Me
 				</button>
 			</div>
 
-			<div className="py-16 border-b-2 border-gray-800 max-w-[90%] mx-auto flex justify-center items-center flex-col xl:flex-row xl:justify-between">
+			<div className="py-16 border-b-2 border-gray-800 max-w-[90%] lg:max-w-[1200px] mx-auto flex justify-center items-center flex-col xl:flex-row xl:justify-between">
 				<div className="flex justify-center items-center flex-col my-12">
 					<img
 						src="./img/avatar.png"
