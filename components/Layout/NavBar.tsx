@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const NavBar = () => {
 	return (
-		<header className="h-28 py-5 px-16 shadow flex items-center">
+		<header className="fixed top-0 left-0 h-28 py-5 px-16 shadow flex items-center  bg-white w-full z-50">
 			<nav className="max-w-[1100px] w-full mx-auto flex justify-between items-center">
 				<Link href="/">
 					<img src="./img/logo.svg" alt="" />
@@ -33,6 +33,14 @@ const NavBar = () => {
 					<li>
 						<Link className="hover:text-orange-600 transition-colors" href="/#">
 							contact
+						</Link>
+					</li>
+					<li>
+						<Link
+							className="hover:text-orange-600 transition-colors"
+							href="/cards"
+						>
+							Cards
 						</Link>
 					</li>
 				</ul>
